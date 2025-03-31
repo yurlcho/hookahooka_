@@ -1,0 +1,571 @@
+#keyring {
+    width: 1400px;
+    height: 800px;
+    /* background-color: rgb(240, 184, 178); */
+    margin: 0 auto;
+    padding-top: 40px
+}
+
+/* 이미지 */
+.imgbox {float: left;}
+
+.imgbox img {
+    width: 592px;
+    height: 592px;
+    float: left;
+}
+.imgbox >img:nth-of-type(2) {
+    width: 118px;
+    height: 118px;
+    clear: both;
+    margin-left: 10px;
+}
+.imgbox >img:nth-of-type(3) {
+    width: 118px;
+    height: 118px;
+    float: left;
+    clear: none;
+    margin-left: 10px;
+}
+
+.imgbox >img:nth-of-type(1){
+    width: 592px;
+    height: 592px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+
+/* 텍스트 */
+.keyringtext {
+    float: left;
+    margin-left: 118px;
+    width: 690px;
+    height: 592px;
+}
+
+/* 텍스트박스1 */
+.keyringtext1 {
+    border-bottom: 1px solid rgba(74, 41, 4, 0.3);
+    float: left;
+    width: 690px;
+    height: 86px;
+    margin-bottom: 26px;
+}
+.keyringtext1 h2 {
+    color: #4A2904;
+    font-size: 22px;
+}
+.keyringtext1 p {
+    color : #855C2D;
+    font-size: 18px;
+}
+
+.text1img {
+    float: right;
+}
+.text1img img{
+    width: 24px;
+    height: 24px;
+    margin-bottom: 26px;
+    margin-top: -26px;
+    cursor: pointer;
+}
+.text1img img:nth-of-type(1) {
+    margin-right: 10px;
+}
+.text1img img:nth-of-type(2) {
+   display: none;
+   width: 24px;
+   height: 24px;
+   margin-bottom: 26px;
+   margin-top: -26px;
+   margin-right: 10px;
+}
+
+
+/* 텍스트박스2 */
+.keyringtext2 {
+    border-bottom: 1px solid rgba(74, 41, 4, 0.3);
+    padding-bottom: 30px;
+    margin-bottom: 26px;
+}
+.keyringtext2 p {
+    font-size: 14px;
+    color: #4A2904;
+    margin-bottom : 10px;
+}
+.keyringtext2 p:nth-of-type(4) {
+    margin-bottom: 0;
+}
+.keyringtext2 span {
+    font-weight: 600;
+    margin-right: 10px;
+}
+.keyringtext2 p img {
+    width: 12px;
+    height: 12px;
+    margin-left: 2px;
+    opacity: 0.7;
+}
+/* 텍스트박스3 */
+.keyringtext3 {
+    border-bottom: 1px dashed rgba(74, 41, 4, 0.3);
+    
+    height: 128px;
+}
+.keyringtext3 h3 {
+    color: #8A7965;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 42px;
+}
+.keyringtext3 p {
+    font-size: 14px;
+    color: #4A2904; float: left;
+}
+
+.countbtn {
+    float: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #c5c0ba
+}
+.countbtn button {
+    border: none;
+    width: 20px;
+    height: 20px;
+    padding: 2px;
+    background-color: #f8ebdb;
+}
+.countbtn button img{
+    width: 16px;
+    height: 16px;
+}
+
+.countbtn input {
+    width: 70px;
+    height: 20px;
+    border: none;
+    text-align: center;
+    color:#4A2904;
+    border-left: 1px solid #c5c0ba;
+    border-right: 1px solid #c5c0ba;
+}
+
+/* 텍스트박스4 */
+.keyringtext4 {
+    margin-top: 26px;
+}
+.keyringtext4 p {
+    color:#4A2904;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.keyringtext4 span {
+    color:#4A2904;
+    font-size: 20px;
+    float: right;
+    margin-top: -50px;
+}
+.keyringtext2:nth-of-type(1) {
+    position: relative;
+}
+.help1 {
+    background-color: #fff;
+    width: 228px;
+    height: 74px;
+    padding: 9px 8px 9px 9px;
+    border-radius: 8px 8px 8px 0;
+    border: 1px solid #4A2904;
+    position:absolute;
+    margin-top: -112px;
+    margin-left: 202px;
+    font-size: 12px;
+    color:#4A2904;
+    display: none;
+}
+.help1 img{
+    width: 12px;
+    height: 12px;
+    float: right;
+}
+.help2 {
+    background-color: #fff;
+    width: 110px;
+    height: 54px;
+    padding: 8px 11px 8px 10px;
+    border-radius: 8px 8px 8px 0;
+    border: 1px solid #4A2904;
+    position:absolute;
+    margin-top: -90px;
+    margin-left: 276px;
+    font-size: 12px;
+    color:#4A2904;
+    display: none;
+}
+.help2 img{
+    width: 12px;
+    height: 12px;
+    float: right;
+}
+.helpimg1:hover {
+    cursor: pointer;
+}
+.help1 img:hover {
+    cursor: pointer;
+}
+.helpimg2:hover {
+    cursor: pointer;
+}
+.help2 img:hover{
+    cursor: pointer;
+}
+
+
+
+.buy button {
+    width: 338px;
+    height: 60px;
+    border: none;
+    border-radius: 68px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    color:#4A2904;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 2px;
+    background-color: #855C2D;
+    color: #fff;
+    cursor: pointer;
+}
+.buy button:nth-of-type(2) {
+    margin-right: 0;
+    background-color: #f8ebdb;
+    color:#4A2904;
+    border: 1px solid #c5c0ba;
+    float: right;
+}
+.buy button:nth-of-type(3) {
+    width: 227px;
+    height: 60px;
+    margin-right: 10px;
+    margin-left: 353px;
+    padding-bottom: 3px;
+    background-color: #00DE5A;
+}
+.buy button:nth-of-type(4) {
+    width: 98px;
+    height: 60px;
+    float: right;
+    margin-right: 0;
+    background-color: #fff;
+    color: #00DE5A;
+    border: 1px solid #c5c0ba
+}
+
+.buy button img {
+    width: 68px;
+    height: 22px;
+    margin-top: 8px;
+}
+
+
+/* 버튼 */
+#wrap {
+    text-align: center;
+}
+
+.dtb {
+    width: 1400px;
+    height: 82px;
+    color:#4A2904;
+    margin: 0 auto;
+    border-bottom: 1px solid rgba(74, 41, 4, 0.3);;
+    
+}
+
+.dtbtn {
+    color:#4A2904;
+    background-color: #FFFBF3;
+    border: none;
+    margin: 30px 30px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+/* 디테일 */
+#detail {
+    width: 1400px;
+    height: 12500px;
+    background-color: #fff;
+    margin: 0 auto;
+    border-bottom: 1px solid rgba(74, 41, 4, 0.3);
+    margin-bottom: 60px;
+}
+
+/* 키링추천 */
+.more{
+    font-size: 22px;
+    font-weight: 600;
+    color:#4A2904;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.morebox {
+    width: 1400px;
+    margin: 0 auto;
+    display: flex;
+}
+.morebox div {
+    justify-content: center;
+    align-content: center;
+}
+.morebox div > img {
+    width: 335px;
+    height: 335px;
+    margin-right: 20px;
+}
+.morebox h3 {
+    color:#4A2904;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.morebox p {
+    color:#4A2904;
+    font-size: 16px;
+}
+
+.morebox div img:hover{background-color: #000000; opacity:0.5;}
+
+/* 리뷰 */
+#review {
+    padding-top: 46px;
+    width: 1400px;
+    height: 600px;
+    margin: 0 auto;
+    display: none;
+}
+#review ul li {
+    float: left;
+    margin-right: 20px;
+    color: #4A2904;
+    font-size: 15px;
+}
+#review ul li a {
+    text-decoration: none;
+    color:#4A2904;
+    font-weight: 600;
+}
+#review select {
+    float: right;
+    width: 98px;
+    height: 26px;
+    line-height: 50%;
+    border-radius: 6px;
+    color:#4A2904;
+    border: 1px solid #4A2904;
+}
+#review select:nth-of-type(2) {
+    margin-right: 10px;
+}
+#review_sel {
+    border-bottom: 2px solid #4A2904;
+    height: 38px; 
+}
+
+#review_table table{
+    width: 1400px;
+}
+#review_table table tr:nth-of-type(1) {
+    height: 80px;
+}
+#review_table table tr:nth-of-type(2) {
+    height: 80px;
+}
+#review_table table tr:nth-of-type(3) {
+    height: 160px;
+}
+#review_table table th {
+    width: 100px;
+    border-bottom: 1px solid rgba(74, 41, 4, 0.3);
+    color:#855C2D;
+}
+#review_table table td {
+    color:#4A2904;
+}
+#review_table table td:first-of-type {
+    width: 890px;
+    border-bottom: 1px solid rgba(74, 41, 4, 0.3);
+    text-align: left;
+}
+#review_table table td:nth-of-type(2) {
+    width: 130px;
+    border-bottom: 1px solid rgba(74, 41, 4, 0.3);
+    text-align: center;
+}
+#review_table table td:nth-of-type(3) {
+    width: 130px;
+    border-bottom: 1px solid rgba(74, 41, 4, 0.3);
+    text-align: center;
+}
+#review_table table td:nth-of-type(4) {
+    width: 150px;
+    border-bottom: 1px solid rgba(74, 41, 4, 0.3);
+    text-align: center;
+}
+
+#review_table table img {
+    width: 100px;
+    height: 100px;
+    padding-top: 4px;
+} 
+
+#review button {
+    width: 98px;
+    height: 26px;
+    float: right;
+    margin: 10px;
+    border-radius: 6px;
+    line-height: 50%;
+    color:#fff;
+    background-color: #4A2904;
+    border: none;
+}
+
+/* QnA */
+#qna {
+    padding-top: 46px;
+    width: 1400px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    display: none;
+}
+#qna p {
+    color:#4A2904;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: left;
+}
+#qna_sel {
+    border-bottom: 2px solid #4A2904;
+    height: 38px;
+    display: flex;
+    justify-content: space-between;
+}
+#qna select {
+    float: right;
+    width: 98px;
+    height: 26px;
+    line-height: 50%;
+    border-radius: 6px;
+    color:#4A2904;
+    border: 1px solid #4A2904;
+}
+
+#qna_table table{
+    width: 1400px;
+    height: 320px;
+    margin: 0 auto;
+}
+#qna_table table th {
+    width: 100px;
+    border-bottom: 1px solid rgba(74, 41, 4, 0.3);
+    color:#855C2D;
+}
+#qna_table table td {
+    color:#4A2904;
+}
+#qna_table table td:first-of-type {
+    width: 890px;
+    border-bottom: 1px solid rgba(74, 41, 4, 0.3);
+    text-align: left;
+}
+#qna_table table td:nth-of-type(2) {
+    width: 130px;
+    border-bottom: 1px solid rgba(74, 41, 4, 0.3);
+    text-align: center;
+}
+#qna_table table td:nth-of-type(3) {
+    width: 150px;
+    border-bottom: 1px solid rgba(74, 41, 4, 0.3);
+    text-align: center;
+}
+#qna_table table td:nth-of-type(4) {
+    width: 130px;
+    border-bottom: 1px solid rgba(74, 41, 4, 0.3);
+    text-align: center;
+}
+#qna_table button {
+    width: 98px;
+    height: 26px;
+    float: right;
+    margin: 10px;
+    border-radius: 6px;
+    line-height: 50%;
+    color:#fff;
+    background-color: #4A2904;
+    border: none;
+}
+
+/* 배송정보 */
+#deliver {
+    width: 1400px;
+    color:#4A2904;
+    text-align: left;
+    margin: 0 auto;
+    padding-top: 46px;
+    font-size: 15px;
+    margin-bottom: 60px;
+    display: none;
+}
+
+#deliver p:nth-of-type(1) {
+    font-weight: 600;
+    border-bottom: 2px solid #4A2904;
+    height: 38px;
+}
+
+#deliver p:nth-of-type(2) {
+    line-height: 30px;
+    margin-top: 20px;
+    height: 240px;
+    /* border-bottom: 2px solid #4A2904; */
+}
+
+/* 교환/반품 */
+#change {
+    width: 1400px;
+    color:#4A2904;
+    text-align: left;
+    margin: 0 auto;
+    padding-top: 46px;
+    font-size: 15px;
+    margin-bottom: 60px;
+    display: none;
+}
+
+#change p:nth-of-type(1) {
+    font-weight: 600;
+    border-bottom: 2px solid #4A2904;
+    height: 38px;
+}
+
+#change p:nth-of-type(2) {
+    line-height: 30px;
+    margin-top: 20px;
+    height: 240px;
+    /* border-bottom: 2px solid #4A2904; */
+}
+

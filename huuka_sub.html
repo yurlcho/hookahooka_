@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HUUKA HUUUKA STUDIO</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/sub_keyring.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: "Noto Sans KR", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        body {
+            background-color: #FFFBF3;
+        }
+
+        body:hover {
+            cursor: url(img/cursor.png), pointer;
+        }
+    </style>
+
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
+<script src="js/sub_button.js"></script>
+<script src="js/help.js"></script>
+<script src="js/heart.js"></script>
+<script src="js/imgbox.js"></script>
+<script src="js/count.js"></script>
+
+
+</head>
+
+
+<body>
+    <!-- 헤더 -->
+    <header>
+        <div class="all">
+            <nav class="nav">
+                <ul>
+                    <li>
+                        <a href="#">SHOP</a>
+                        <ul>
+                            <li><a href="#">ALL PRODUCTS</a></li>
+                            <li><a href="#">SEASON</a></li>
+                            <li><a href="#">LIFESTYLE</a></li>
+                            <li><a href="#">ACC</a></li>
+                            <li><a href="#">STATIONERY</a></li>
+                            <li><a href="#">CHARACTER</a></li>
+                            <li><a href="#">#후후스한달후기</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">BOARD</a>
+                        <ul>
+                            <li><a href="#">NOTICE</a></li>
+                            <li><a href="#">QnA</a></li>
+                            <li><a href="#">SCHEDULE</a></li>
+                            <li><a href="#">WALLPAPER</a></li>
+                            <li><a href="#">OVERSEAS DELIVERY</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">ABOUT</a>
+                        <ul>
+                            <li><a href="#">ABOUT</a></li>
+                            <li><a href="#">WORKS</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">STORE</a></li>
+                    <li><a href="#">LOOKBOOK</a></li>
+                </ul>
+            </nav>
+            <div id="logo">
+                <a href="huuka.html"><img src="img/logo.png" alt="logo" width="88" height="62"></a>
+            </div>
+
+            <div class="search-box">
+                <form action="." method="post">
+                    <input class="search-txt" type="text" placeholder="search...">
+                    <button class="search-btn" type="submit"><i class="fas fa-search"></i></button>
+                </form>
+            </div>
+
+            <div id="icon">
+                <div class="key">
+                    <img src="img/key.png" alt="key" width="24" height="24">
+                </div>
+                <div class="cart">
+                    <img src="img/shopping-cart.png" alt="cart" width="24" height="24">
+                </div>
+                <div class="user">
+                    <img src="img/user.png" alt="user" width="24" height="24">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- 키링 -->
+    <div id="keyring">
+        <div class="imgbox">
+            <img src="img/keyring1.jpg" alt="keyring">
+            <!-- <img src="img/keyring4.jpg" alt="keyring"> -->
+            <img src="img/keyring2.jpg" alt="keyring">
+            <img src="img/keyring3.jpg" alt="keyring">
+        </div>
+
+        <div class="keyringtext">
+
+            <div class="keyringtext1">
+                <h2>소프트 플러피 키링 [무우우 메론빵]</h2>
+                <p>19,500원</p>
+                <div class="text1img">
+                    <img src="img/heart.png" alt="heart">
+                    <img src="img/heartfill.png" alt="heartfill">
+                    <img src="img/share-2.png" alt="share">
+                </div>
+            </div>
+
+            <div class="keyringtext2">
+                <p><span>구매혜택</span>390 말랑코인 적립예정<img class="helpimg1" src="img/help-circle.png" alt="help-circle"></p>
+                <div class="help1">
+                    <img src="img/x-square.png" alt="x-square">
+                    적립금액은 할인 쿠폰 적용 및 옵션 <br>
+                    가격, 수량을 기준으로 적립되므로 <br>
+                    최종 적립 금액은 쿠폰 사용 여부 및 <br>
+                    옵션 가격, 수량에 따라 달라질 수 있습니다.</div>
+                <p><span>배송 방법</span>택배</p>
+                <p><span>배송비</span>배송비 3,000원 | 도서산간 배송비 추가<img class="helpimg2" src="img/help-circle.png" alt="help-circle"></p>
+                <div class="help2">
+                    <img src="img/x-square.png" alt="x-square">
+                    제주 : + 5,000원 <br>
+                    제주 외 도서지역 : <br>
+                    + 5,000원 <br>
+                </div>
+                <p><span>배송사</span>로젠택배</p>
+            </div>
+
+            <div class="keyringtext3">
+                <h3>소프트 플러피 키링 [무우우 메론빵]</h3>
+                <p>수량</p>
+                <div class="countbtn">
+                    <button class="minus"><img src="img/minus.png" alt="minus"></button>
+                    <input type="text" value="1" name="count" class="price_value">
+                    <button class="plus"><img src="img/plus.png" alt="plus"></button>
+                </div>
+            </div>
+
+            <div class="keyringtext4">
+                <p>합계금액</p><div class="price_sum"><span></span></div>
+            </div>
+
+            <div class="buy">
+                <button>장바구니 담기</button>
+                <button>바로 구매하기</button><br>
+                <button><img src="img/logo_npaybk_small_1.png" alt="button"></button>
+                <button>찜</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- 상세정보 -->
+     <div id="wrap">
+        <div class="dtb">
+            <button class="dtbtn bold">상세정보</button> |
+            <button class="dtbtn">후기</button> |
+            <button class="dtbtn">QnA</button> |
+            <button class="dtbtn">배송정보</button> |
+            <button class="dtbtn">교환/반품</button>
+           </div>
+
+     <div id="detail">
+        <img src="img/webpage.jpg" alt="page">
+        <img src="img/webpage2.jpg" alt="page">
+        <img src="img/webpage3.jpg" alt="page">
+     </div>
+
+     <div id="review">
+        <div id="review_sel">
+        <ul>
+            <li><a href="#">전체 후기 보기</a></li>
+            <li>사진 후기만 보기</li>
+        </ul>
+        <select name="select">
+            <option value="평점 5점">평점 5점</option>
+            <option value="평점 4점">평점 4점</option>
+            <option value="평점 3점">평점 3점</option>
+            <option value="평점 2점">평점 2점</option>
+            <option value="평점 1점">평점 1점</option>
+        </select>
+        <select name="select">
+            <option value="최신순">최신순</option>
+            <option value="오래된순">오래된순</option>
+        </select>
+    </div>
+        <div id="review_table">
+            <table>
+                <tr>
+                    <th>1</th>
+                    <td>너무 귀여워... 다이어리에 달거나 패브릭 필통에 달려고 구매했어요</td>
+                    <td>도**</td>
+                    <td>5점</td>
+                    <td>2025.03.24</td>
+                </tr>
+                <tr>
+                    <th>2</th>
+                    <td>친구가 보더니 너무 귀엽다고 탐내서 하나 더 구매했어요!</td>
+                    <td>유**</td>
+                    <td>5점</td>
+                    <td>2025.03.13</td>
+                </tr>
+                <tr>
+                    <th>3</th>
+                    <td>진짜 너무 귀여워요ㅠㅠ 살까말까 잠시 고민했는데 사길 잘했어욥!!! <br>
+                        <img src="img/review.jpg" alt="review">
+                    </td>
+                    <td>김**</td>
+                    <td>5점</td>
+                    <td>2025.02.10</td>
+                </tr>
+            </table>
+            <button>후기 작성</button>
+        </div>
+
+     </div>
+
+     <div id="qna">
+        <div id="qna_sel">
+            <p>QnA</p>
+            <select name="qnasel" id="qnasel">
+                <option value="최신순">최신순</option>
+                <option value="오래된순">오래된순</option>
+            </select>
+        </div>
+            <div id="qna_table">
+                <table>
+                    <tr>
+                        <th>1</th>
+                        <td>출고 언제</td>
+                        <td>이**</td>
+                        <td>2025.03.25</td>
+                        <td>답변완료</td>
+                    </tr>
+                    <tr>
+                        <th>2</th>
+                        <td>고리가 없어요</td>
+                        <td>배**</td>
+                        <td>2025.03.15</td>
+                        <td>답변완료</td>
+                    </tr>
+                    <tr>
+                        <th>3</th>
+                        <td>배송완료라고 뜨는데 받은 게 없어요ㅜㅜ</td>
+                        <td>정**</td>
+                        <td>2025.03.08</td>
+                        <td>답변완료</td>
+                    </tr>
+                    <tr>
+                        <th>4</th>
+                        <td>환불 입금 언제</td>
+                        <td>김**</td>
+                        <td>2025.02.16</td>
+                        <td>답변완료</td>
+                    </tr>
+                </table>
+                <button>문의하기</button>
+            </div>
+     </div>
+
+     <div id="deliver">
+        <p>배송정보</p>
+        <p>- 물품의 발송은 주문일(무통장입금은 결제완료일)로부터 일주일 내에 이루어집니다. 따로 공지가 있는 경우, <br>
+            공지에 표시된 기간 내에 배송됩니다. 사이트 공지는 NOTICE 탭 또는 각 상품의 상세페이지에서 확인해주세요. <br>
+            - 제품 검수는 기본적으로 전제품 이뤄지고 있으며, 꼼꼼한 검수를 위해 정말 많은 시간을 들이고 있습니다. <br>
+            또한, 배송 시에도 정확하게 보내드리기 위해 리스트를 두 세번씩 확인하며 보내드리고 있습니다. <br>
+            하지만 사람이 하는 것이기에, 검수 중에 발견되지 못한 흠이 있을 수 있으며, 배송 오류가 있을 수 있습니다. <br>
+            이러한 경우 상품 수령 일주일 내 QnA 게시판을 통해 알려주시면 CS를 해드리고 있습니다. <br>
+            좋은 제품을 보내드리기 위해 많은 노력을 하고 있으니, 조금만 이해해주시고 부드럽게 말씀해주시면 감사하겠습니다.</p>
+     </div>
+
+     <div id="change">
+        <p>교환/반품</p>
+        <p>- 교환/반품 신청은 배송 완료 후 7일 이내 가능합니다. <br>
+            - 단순 변심 반품의 경우 왕복 배송비를 차감한 금액이 환불되며, 제품 및 포장이 재판매 가능한 상태여야 합니다. <br>
+            - 상품 불량 환불일 경우 배송비 포함 전액이 환불됩니다. <br>
+            - 출고 이후 환불요청 시 상품이 회수된 후 처리됩니다. <br>
+            - 모든 제작 제품은 오차가 있으며, 제작소에서 불량이라고 인정되지 않는 범위 내의 오차일 경우, 정상품으로 분류됩니다. <br>
+            - 정상품으로 분류되는 상품의 경우 교환/환불 요청 시 왕복 택배비를 부담해 주셔야 합니다.</p>
+     </div>
+    </div>
+
+    <!-- 키링 추천 -->
+    <div>
+        <h3 class="more">함께 클릭된 상품</h3>
+    
+    
+        <div class="morebox">
+            <div>
+                <img src="img/more1.jpg" alt="mroe">
+                <h3>소프트 플러피 키링 [토마토]</h3>
+                <p>12,500원</p>
+            </div>
+
+            <div>
+                <img src="img/more2.jpg" alt="mroe">
+                <h3>소프트 플러피 키링 [말랑이 앉아]</h3>
+                <p>12,500원</p>
+            </div>
+
+            <div>
+                <img src="img/more3.jpg" alt="mroe">
+                <h3>소프트 플러피 키링 [후추]</h3>
+                <p>12,500원</p>
+            </div>
+
+            <div>
+                <img src="img/more4.jpg" alt="mroe">
+                <h3>소프트 플러피 키링 [메론빵 클로버]</h3>
+                <p>12,500원</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- 푸터 -->
+    <footer>
+        <div>
+            <p><span>후카후카스튜디오 (HOOKKA HOOKKA STUDIO)</span> <br>
+                BUSINESS NO. 878-31-00504 [Business information verification] / E-COMMERCE REGISTRATION NO.
+                2021-SEOULMAPO-4337 / CEO. YOU DA EUN <br>
+                2F, 13, Donggyo-ro 46-gil, Mapo-gu, Seoul, Republic of Korea / contact : official@hookkahookkastudio.com
+                / tel. 02-6104-0505 (MON-FRI 13:00-19:00) <br>
+                hosting by Imweb Inc. <br>
+                ⓒHOOKKAHOOKKASTUDIO. ALL RIGHTS RESERVED.
+                TOS / PPS</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

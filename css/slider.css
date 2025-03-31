@@ -1,0 +1,22 @@
+#slider{
+    width: 1920px;
+    height: 820px;
+    margin: 0 auto;
+    background-color: rgb(140, 188, 243);
+    margin-top: 150px;
+    position: relative;
+    overflow: hidden;
+}
+.slide {
+    width: 7680px;
+}
+.slide li {
+    width: 1920px;
+    height: 820px;
+    float: left;
+}
+.slide img{
+    width: 100%;
+    height: 100%;
+}
+ul, li, ol {list-style: none;}

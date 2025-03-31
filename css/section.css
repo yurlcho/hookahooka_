@@ -1,0 +1,89 @@
+/* 시즌 */
+.season{width: 1400px; height: 620px; margin: 0 auto;}
+.season div{width: 264px; height: 264px; border-radius: 8px; float: left; 
+    background-color: aliceblue; margin: 24px 0 0 20px;}
+.season div:nth-of-type(1){margin: 24px 0 0 0;}
+.season div img{width: 100%; width: 100%; border-radius: 8px;}
+.season h1{text-align: center; font-size: 30px; color: #4A2904; font-weight: bold; padding-top:117px}
+.season h3{color: #4A2904; font-weight: bold; font-size: 18px; }
+.season p{color: #535353; text-align: right; font-size: 15px; padding-top: 11px;}
+
+
+
+
+/* 시즌 호버 */
+.season p:hover{text-decoration-line: underline; color:#f37e7e;}
+.season div img:hover{background-color: #000000; opacity:0.5;}
+
+/* 신제품 */
+.new{width: 1400px; height: 838px; margin: 0 auto;}
+.new h1{text-align: center; font-size: 30px; color: #4A2904; font-weight: bold; padding-top:48px;}
+.new> div{width: 453px; height: 570px; float: left; margin: 46px 0 0 20px;}
+.new> div:nth-of-type(1){margin: 46px 0 0 0;}
+.new div img{width: 100%; border-radius: 10px;}
+div .newicon{width: 72px; height: 22px; background-color: #FFA4A4; border-radius: 18px;
+            color: white; font-size: 16px; font-weight: bold; line-height: 20px; text-align: center; padding-top: 2px; margin-top: 12px;}
+/* div .new2{width: 72px; height: 22px; background-color: #FFA4A4; border-radius: 18px;
+            color: white; font-size: 16px; font-weight: bold; text-align: center; padding-top: 2px;}
+div .new3{width: 72px; height: 22px; background-color: #FFA4A4; border-radius: 18px;
+             color: white; font-size: 16px; font-weight: bold; text-align: center; padding-top: 2px; } */
+.new h3{clear: both; color: #4A2904; font-weight: bold; font-size: 18px;}
+.new p{clear: both; color: #855c2d; font-size: 16px; }
+.new div img:hover{background-color: #000000; opacity:0.5;}
+
+/* 베스트 */
+.best{width: 1400px; height: 1200px; margin: 0 auto;}
+.best h1{text-align: center; font-size: 30px; color: #4A2904; font-weight: bold; padding-top:110px;}
+.best p{text-align: right; padding-top: 20px; padding-bottom: 24px; color: #535353;}
+.best img{width: 335px; height: 335px; float: left; border-radius: 8px;}
+.best div{float: left;}
+.best > div h3{clear: both; color: #4A2904; font-weight: bold; font-size: 18px; padding-top:14px;}
+.best > div p{clear: both;  color: #855c2d; text-align: left; font-size: 16px; padding-top: 0; padding-bottom: 0;}
+.best > .best1 > div{margin: 0 20px 60px 0;}
+.best > .best1 > div:nth-of-type(4) {margin: 0;}
+.best > .best2 > div{margin: 0 20px 0 0;}
+.best > .best2 > div:nth-of-type(4) {margin: 0;}
+.best a {
+    text-decoration: none;
+}
+
+/* 베스트 호버 */
+.best p:hover{text-decoration-line: underline; color:#f37e7e;}
+.best div img:hover{background-color: #000000; opacity:0.5;}
+
+/* 재입고 */
+.restock{width: 1400px; height: 1200px; margin: 0 auto;}
+.restock h1{text-align: center; font-size: 30px; color: #4A2904; font-weight: bold; margin-top: 20px;}
+.restock p{text-align: right; padding-top: 20px; padding-bottom: 24px; color: #535353;}
+.restockicon{width: 98px; height: 22px; border-radius: 18px; background-color: #FFC26D;
+    float:none; text-align: center; color: white; font-weight: bold; font-size: 16px; padding-bottom: 1px; line-height: 22px;}
+.restock img{width: 335px; height: 335px; border-radius: 8px; float: left; margin-bottom: 14px;}
+.restock > div {float: left;}
+.restock div > .restockicon{clear: both;}
+.restock h3{font-weight: bold; font-size: 18px;  color: #4A2904; clear: both;}
+.restock1 p{text-align: left; padding-top: 0; padding-bottom: 80px; color: #855c2d;}
+.restock > .restock2 > div > p{text-align: left; color: #4A2904; padding: 0;}
+.restock > .restock1 div {margin: 0 20px 0 0; float: left;}
+.restock > .restock1 > div:nth-of-type(4) {margin: 0;}
+.restock > .restock2 > div {margin: 0 20px 0 0; float: left;}
+.restock > .restock2 > div:nth-of-type(4) {margin: 0;}
+
+/*재입고 호버 */
+.restock p:hover{text-decoration-line: underline; color:#f37e7e;}
+.restock div img:hover{background-color: #000000; opacity:0.5;}
+
+
+/* 픽 */
+.pick{width: 1400px; height: 800px; margin: 0 auto; margin-top: 80px;}
+
+.pick div:nth-of-type(3){margin: 0;}
+.pickimg{width: 453px; height: 570px; border-radius: 10px; overflow: hidden; float: left; margin: 0 20px 0 0; position: relative;}
+.pickimg img {width: 100%;}
+.pick h1{text-align: center; font-size: 30px; color: #4A2904; font-weight: bold; margin-top: -100px; padding-bottom: 50px;}
+.picktext {width: 100%; height: 100%; opacity: 0;
+            transition: all 0.5s ease; position: absolute; top: 0; left: 0; background: linear-gradient(#fff, #000);
+            background: linear-gradient(to bottom,
+                rgba(255, 255, 255, 0) 40%,rgba(20, 20, 20, 0.3) 60%,rgba(20, 20, 20, 0.9) 100%);} 
+.pickimg:hover .picktext {opacity: 1;}
+.picktext > h3 { margin: 420px 0 0 40px; font-size: 18px; color: #fff; font-weight: bold;}
+.picktext > p {margin: 4px 0 0 40px; color: #fff;}
